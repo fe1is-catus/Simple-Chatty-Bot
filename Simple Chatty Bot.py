@@ -116,12 +116,12 @@ def test():
     3. To determine the execution time of a program.
     4. To interrupt the execution of a program.
     ''')
-    answer = int(input())
+    answer = input()
     
-    while answer != 2:
+    if answer != "2":
        print("Please, try again.")
-    
-    print('Completed, have a nice day!')
+    else:
+        print('Completed, have a nice day!')
 
 
 def end():
@@ -134,3 +134,4 @@ guess_age()
 count()
 test()
 end()
+
